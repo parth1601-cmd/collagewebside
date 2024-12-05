@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form - Shri Balaji Institute of Technology & Management, Betul MP, Betul</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Online Registration Form</h1>
+            <h2>Shri Balaji Institute of Technology & Management, Betul MP</h2>
+        </header>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="fathers-name">Father's Name:</label>
+                <input type="text" id="fathers-name" name="fathers-name" required>
+
+                <label for="mothers-name">Mother's Name:</label>
+                <input type="text" id="mothers-name" name="mothers-name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="local-address">Local Address:</label>
+                <textarea id="local-address" name="local-address" required></textarea>
+
+                <label for="permanent-address">Permanent Address:</label>
+                <textarea id="permanent-address" name="permanent-address" required></textarea>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="pin-code">Pin Code:</label>
+                <input type="text" id="pin-code" name="pin-code" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Qualification Details</legend>
+                <h3>10th Details</h3>
+                <label for="10th-obt-marks">Obtained Marks:</label>
+                <input type="text" id="10th-obt-marks" name="10th-obt-marks" required>
+
+                <label for="10th-max-marks">Maximum Marks:</label>
+                <input type="text" id="10th-max-marks" name="10th-max-marks" required>
+
+                <h3>12th Details</h3>
+                <label for="12th-obt-marks">Obtained Marks:</label>
+                <input type="text" id="12th-obt-marks" name="12th-obt-marks" required>
+
+                <label for="12th-max-marks">Maximum Marks:</label>
+                <input type="text" id="12th-max-marks" name="12th-max-marks" required>
+
+                <label for="other-qualification">Other Qualification:</label>
+                <input type="text" id="other-qualification" name="other-qualification">
+
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="ug">UG</option>
+                    <option value="pg">PG</option>
+                </select>
+
+                <label for="stream">Stream:</label>
+                <select id="stream" name="stream" required>
+                    <option value="ba">BA</option>
+                    <option value="bsc">BSc</option>
+                    <option value="bca">BCA</option>
+                    <option value="bcom">B.Com</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
